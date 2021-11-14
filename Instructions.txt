@@ -1,0 +1,23 @@
+
+
+First part of the code (brain decoding and fingerprinting with SDI, c-FC, d-FC): 
+
+
+- run the script GSP_brain_decode_fingerprint/SVM/SVM_FullPipeline.m
+
+- allows to perform ANOVA, SVM classifications for brain decoding and fingerprinting, with the choice on SDI, FC nodal strength, c-FC, d-FC, or FC values.
+
+- takes data directly from the folder Data
+
+
+
+Second part of the code (PLSC relating brain measures and cognitive scores):
+
+
+- this part requires the PLS implementation developed at the MIP:Lab - EPFL ( https://github.com/danizoeller/myPLS ). Download the myPLS code from the GitHub repository and copy the downloaded folder 'myPLS-master' to Code_For_Publication/PLS_SDI
+
+- run the script GSP_brain_decode_fingerprint/PLSC/PLSC_FullPipeline.m  
+
+- allows to perform PLSC analysis for SDI, FC nodal strength, c-FC, d-FC, or FC values and 10 cognitive scores, with the choice on functional values from one of the 8 tasks
+
+- takes data directly from the folder Data

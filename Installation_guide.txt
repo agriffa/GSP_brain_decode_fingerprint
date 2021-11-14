@@ -1,0 +1,5 @@
+- Download or git clone GSP_brain_decode_fingerprint (installation time: n/a)
+
+- Add the GSP_brain_decode_fingerprint folder and subfolders to your Matlab path
+
+- Run the analyses in Matlab by calling the scripts .../GSP_brain_decode_fingerprint/SVM/SVM_FullPipeline.m and .../GSP_brain_decode_fingerprint/PLS/PLS_FullPipeline.m (for more details, see the Instructions.txt file)

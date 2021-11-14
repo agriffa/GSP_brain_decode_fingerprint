@@ -1,0 +1,2 @@
+Matlab>=2019b
+Matlab PLS Toolbox (https://miplab.epfl.ch/index.php/software/PLS; https://github.com/danizoeller/myPLS)
