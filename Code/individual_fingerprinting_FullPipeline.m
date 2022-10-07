@@ -4,7 +4,7 @@
 % This script reproduce individual fingerprinting results reported in the manuscript
 % "Brain structure-function coupling provides signatures for task decoding and individual fingerprinting"
 % Alessandra Griffa, Enrico Amico, Raphaël Liégeois, Dimitri Van De Ville, Maria Giulia Preti
-% bioRxiv 2021.04.19.440314; doi: https://doi.org/10.1101/2021.04.19.440314
+% NeuroImage (2022) 250:118970, doi: https://doi.org/10.1016/j.neuroimage.2022.118970
 % 
 
 clear
@@ -122,6 +122,9 @@ end
 
 
 %% SVM for subject fingerprinting
+
+Y = subj_label;         % response data (class labels)
+
 switch cvtype
     case 1
         
@@ -169,7 +172,7 @@ switch cvtype
         
         clc
         disp(['INDIVIDUAL FINGERPRINTING ACCURACY for ' feature_string ', leave-one-subject-task-out (800-FOLD) CV']);
-        disp(['accuracy = ' num2str(accuracy_test,3)]);
+        disp(['accuracy = ' num2str(accuracy1_test,3)]);
         
         
     case 2
