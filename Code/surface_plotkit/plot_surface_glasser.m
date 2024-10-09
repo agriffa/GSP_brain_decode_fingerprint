@@ -4,7 +4,7 @@
 function plot_surface_glasser(mypath,this_vector,this_cm,min_val,max_val)
 
 %% Plotting
-plotkit_dir = fullfile(mypath,'surface_plotkit');
+plotkit_dir = fullfile(mypath,'Code','surface_plotkit');
 path_surf_rh = fullfile(plotkit_dir, 'data', 'fsaverage', 'surf', 'rh.pial');
 path_surf_lh = fullfile(plotkit_dir, 'data', 'fsaverage', 'surf', 'lh.pial');
 path_annot_rh = fullfile(plotkit_dir, 'data', 'fsaverage', 'label', 'rh.HCP-MMP1.annot');

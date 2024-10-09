@@ -45,6 +45,7 @@ tasktype = 1;
 % Project directory
 findpath = which('PLSC_FullPipeline.m');
 project_dir = erase(findpath, '/Code/PLSC_FullPipeline.m');
+addpath(genpath(fullfile(project_dir, 'Code')));
 
 % Number of subejcts
 ns = 100;
@@ -94,7 +95,7 @@ switch datatype
         clear FC   
 end
 
-% Number of data points (acquisition)         
+% Number of features         
 na = size(data,1);         
 
 % Load cognitive scores
