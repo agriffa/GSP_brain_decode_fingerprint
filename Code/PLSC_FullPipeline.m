@@ -5,7 +5,7 @@
 % This script reproduce PLSC results reported in the manuscript
 % "Brain structure-function coupling provides signatures for task decoding and individual fingerprinting"
 % Alessandra Griffa, Enrico Amico, Raphaël Liégeois, Dimitri Van De Ville, Maria Giulia Preti
-% bioRxiv 2021.04.19.440314; doi: https://doi.org/10.1101/2021.04.19.440314
+% NeuroImage, Volume 250, 2022, 118970, ISSN 1053-8119, https://doi.org/10.1016/j.neuroimage.2022.118970.
 % 
 
 clear
@@ -22,7 +22,7 @@ clc
 % 3 = coupled-FC -> 71'631 features
 % 4 = decoupled-FC -> 71'631 features
 % 5 = FC -> 71'631 features
-datatype = 1;
+datatype = 4;
 
 % Select the task on which you want to run PLSC
 % 1 = RESTING STATE
